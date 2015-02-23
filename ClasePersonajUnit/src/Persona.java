@@ -81,11 +81,8 @@ public class Persona {
 		diaNac = (int) (s.charAt(7) + s.charAt(8) + s.charAt(9) + s.charAt(10));
 	}
 
-	public void setSexo(boolean x) {
-		if (x)
-			sexo = 'H';
-		else
-			sexo = 'M';
+	public void setSexo(char x) {
+			sexo = x;
 	}
 
 	public void setEstCiv(String s) {
